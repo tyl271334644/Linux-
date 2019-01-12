@@ -1,0 +1,45 @@
+gdb调试工具：
+	1.在编译程序的时候，向可执行程序中添加符号信息
+		gcc -g
+	2.运行gdb加载程序
+		gdb  ./main    不能携带参数，参数会被当作gdb的参数
+	3.调试操作
+		run：直接运行程序     程序的命令行参数在这里赋予
+		start：逐步调试   n下一步
+		list：查看某行代码
+		step: 下一步   跟踪进入函数
+		next：下一步   不跟踪进入函数
+		until：直接运行到指定行
+		bt： 查看函数调用栈信息
+		print：打印内容
+		
+		b：打断点
+		line： 向当前调试的文件的指定行打断点
+		file：line   向指定文件的指定行打断点
+		func： 给函数打断点
+		info：查看调试信息
+			info break 查看断点信息
+		watch   变量监控，当变量内容发生改变则停下来
+		continue   继续进行
+		watch var
+
+		
+git项目版本控制工具：分布式管理
+svn项目版本控制工具：集中式管理
+
+		git clone
+		https-url  从github上克隆代码到当前路径
+		git add file  添加要提交的文件
+		git commit - m “ 注释”  本地提交
+		git push  上传代码
+		了解 git 分支管理
+		
+linux系统编程：
+	进程概念
+	进程控制
+	基础 IO
+	进程间通信
+	进程信号
+	多线程
+	 
+	
